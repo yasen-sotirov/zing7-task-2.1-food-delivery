@@ -1,0 +1,14 @@
+/* Тук се вписват всички стилове, Tailwind линкове 
+Страницат в React и Next се рендерират на сървъра, а не на клиента. Това помага за няколко неща
+Може да сменим и да рендваме на клиента чреа "use client"
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply border border-black rounded-lg py-1 px-5;
+  }
+}
