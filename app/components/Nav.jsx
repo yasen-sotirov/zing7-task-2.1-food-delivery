@@ -15,7 +15,7 @@ const Nav = () => {
 
         {/* правим първо за малки екрани,  после за средни и накрая за големи */}
         <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
-          Brst <span className="font-bold">Eats</span>
+          Best <span className="font-bold">Eats</span>
         </h1>
 
         {/* на малки е скрито, на големи вече е флекс и се вижда */}
